@@ -394,9 +394,8 @@ $('#button1').click(
             $.get(`https://api.spotify.com/v1/search?type=track&q=${searchWord}`, function() {})
                 .done(function(data) {
                     console.log("Spotify data: ", data);
-                    var firstSong = data.tracks.items[0].id
-                    // $('#songResults').delete();
-                    $('#songResults').append(`<iframe class= "ontop" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A${firstSong}" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>`)
+                    var firstSong = data.tracks.items[0]
+                    $('#songResults').append()
             });
 
             // $('#button1').click(

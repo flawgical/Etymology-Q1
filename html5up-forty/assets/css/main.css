@@ -47,9 +47,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
- .buttoned{
-	 padding: 70px
- }
+
   /*box
 {
 	padding-right: 20px;
@@ -63,10 +61,6 @@
 	}
 
 /* Grid */
-
-.ontop{
-	z-index: 100 !important;
-}
 
 	.row {
 		border-bottom: solid 1px transparent;
