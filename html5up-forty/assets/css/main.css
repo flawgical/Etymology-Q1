@@ -48,6 +48,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+  /*box
+{
+	padding-right: 20px;
+}*/
 /* Box Model */
 
 	*, *:before, *:after {
