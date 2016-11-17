@@ -396,7 +396,8 @@ $('#button1').click(
                     console.log("Spotify data: ", data);
                     var firstSong = data.tracks.items[0].id
                     // $('#songResults').delete();
-                    $('#songResults').append(`<iframe class= "ontop" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A${firstSong}" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>`)
+                    $('#songResults').html(`<iframe class= "ontop spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A${firstSong}" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>`);
+
             });
 
             // $('#button1').click(

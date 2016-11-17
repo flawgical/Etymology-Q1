@@ -63,7 +63,16 @@
 	}
 
 /* Grid */
-
+.floating{
+	display:flex;
+}
+#button1{
+	width:10%;
+}
+#query{
+	width:80%;
+	margin-right:5%;
+}
 .ontop{
 	z-index: 999999999999999999999 !important;
 }
