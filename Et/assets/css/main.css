@@ -1939,6 +1939,9 @@
 
 		}
 
+			#query{
+		background-color: #708090;
+		}
 	label {
 		color: #ffffff;
 		display: block;
